@@ -19,9 +19,13 @@ A clean, console-based Java application that simulates real banking operations u
 BankingSystem/
 
 -> Main.java # Entry point + User Interface (Console)
+
 -> BankAccount.java # Account model + balance operations
+
 -> Transaction.java # Transaction model (type, amount, time)
+
 -> BankService.java # Handles account management, login, validation
+
 -> FileStorage.java # Saves/loads data using Java Serialization
 
 
@@ -40,10 +44,15 @@ BankingSystem/
 ## 🎯 Purpose of This Project
 
 This project demonstrates:
+
 -> Clean Object-Oriented Programming (OOP)
+
 -> Java file handling & serialization
+
 -> Input validation & exception handling
+
 -> Modular project structure
+
 -> Real-world banking logic at a beginner-friendly level
 
 

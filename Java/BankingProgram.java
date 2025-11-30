@@ -30,6 +30,9 @@ public class BankingProgram {
 
             }
         }
+        System.out.println("-------------***-------------");
+        System.out.println("Thank you!! Have a nice day!!");
+        System.out.println("-------------***-------------");
         scanner.close();
 
     }

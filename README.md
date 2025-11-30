@@ -5,7 +5,7 @@ A clean, console-based Java application that simulates real banking operations u
 
 ## 🚀 Features
 
-- Account Creation – Register a new bank account with a secure 4-digit PIN.
+- **Account Creation** – Register a new bank account with a secure 4-digit PIN.
 - **PIN-Based Login** – Only authenticated users can access their accounts.
 - **Deposit & Withdrawal** – Perform transactions with proper validation.
 - **Balance Inquiry** – View the current account balance anytime.
@@ -17,11 +17,12 @@ A clean, console-based Java application that simulates real banking operations u
 ## 📂 Project Structure
 
 BankingSystem/
-│── Main.java # Entry point + User Interface (Console)
-│── BankAccount.java # Account model + balance operations
-│── Transaction.java # Transaction model (type, amount, time)
-│── BankService.java # Handles account management, login, validation
-└── FileStorage.java # Saves/loads data using Java Serialization
+
+-> Main.java # Entry point + User Interface (Console)
+-> BankAccount.java # Account model + balance operations
+-> Transaction.java # Transaction model (type, amount, time)
+-> BankService.java # Handles account management, login, validation
+-> FileStorage.java # Saves/loads data using Java Serialization
 
 
 ## 💻 How to Run the Project
@@ -31,29 +32,22 @@ BankingSystem/
 3. Compile all Java files:
    ```
    javac BankingSystem/*.java
-
 4. Run the program:
    ```
    java practice.Main
-
 5. Follow the on-screen instructions to create an account, log in, and manage your banking operations.
 
-🎯 Purpose of This Project
+## 🎯 Purpose of This Project
 
 This project demonstrates:
-
 -> Clean Object-Oriented Programming (OOP)
-
 -> Java file handling & serialization
-
 -> Input validation & exception handling
-
 -> Modular project structure
-
 -> Real-world banking logic at a beginner-friendly level
 
-📜 License
 
+📜 License
 This project is open-source. You may modify or extend it for learning or practice.
 
 

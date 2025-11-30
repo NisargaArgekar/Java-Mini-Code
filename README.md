@@ -56,7 +56,8 @@ This project demonstrates:
 -> Real-world banking logic at a beginner-friendly level
 
 
-📜 License
+## 📜 License
+
 
 This project is open-source. You may modify or extend it for learning or practice.
 

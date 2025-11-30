@@ -21,6 +21,7 @@ It is commonly asked in Java interviews and assignments.
 - Formatted output using printf
 
 📂 Project Structure
+
 BankingProgram.java
 │
 ├── showBalance()   → displays current balance
@@ -28,6 +29,7 @@ BankingProgram.java
 └── withdraw()      → handles withdrawal with validation
 
 📸 Sample Output
+
 **-----> BANKING PROGRAM <-----**
 
 1. Show Balance
@@ -35,20 +37,31 @@ BankingProgram.java
 3. Withdraw
 4. Exit
 
+
 Enter your choice (1-4): 2
 Enter an amount to be deposited: 500
 
+
 🛠️ How to Run
+
 -> Clone the repository:
+
     git clone https://github.com/your-username/banking-program.git
+    
 -> Navigate into the project folder:
+
     cd banking-program
+    
 -> Compile the Java file:
+
     javac BankingProgram.java
+    
 -> Run the program:
+
     java BankingProgram
 
 🧩 Code Snippet (Main Logic)
+
 switch(choice) {
     case 1 -> showBalance(balance);
     case 2 -> balance += deposit();
@@ -58,6 +71,7 @@ switch(choice) {
 }
 
 🚀 Future Enhancements:
+
 🔐 Add PIN-based login
 📄 Add transaction history
 🏦 Create BankAccount class (OOP version)
@@ -65,8 +79,11 @@ switch(choice) {
 🖥️ Add UI using Java Swing or JavaFX
 
 🤝 Contributing
+
 Pull requests are welcome.
 For major changes, please open an issue first to discuss what you would like to improve.
 
 📜 License
+
+This project is open-source and free to use.
 This project is open-source and free to use.

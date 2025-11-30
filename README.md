@@ -26,10 +26,9 @@ It is commonly asked in Java interviews and assignments.
 
 BankingProgram.java
 
-│
-├── showBalance()   → Displays current balance
-├── deposit()       → Handles user deposit with validation
-└── withdraw()      → Handles withdrawal with validation
+-> showBalance()   → Displays current balance
+-> deposit()       → Handles user deposit with validation
+-> withdraw()      → Handles withdrawal with validation
 
 
 📸 Sample Output

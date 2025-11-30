@@ -1,7 +1,9 @@
 # Banking Program – Java Console Application
 
 A simple Banking System Console Application built in Java.
+
 This mini-project is perfect for learning input handling, loops, switch cases, validation, and method-based programming.
+
 It is commonly asked in Java interviews and assignments.
 
 🚀 Features
@@ -24,9 +26,10 @@ It is commonly asked in Java interviews and assignments.
 
 BankingProgram.java
 │
-├── showBalance()   → displays current balance
-├── deposit()       → handles user deposit with validation
-└── withdraw()      → handles withdrawal with validation
+├── showBalance()   → Displays current balance
+├── deposit()       → Handles user deposit with validation
+└── withdraw()      → Handles withdrawal with validation
+
 
 📸 Sample Output
 
@@ -62,7 +65,9 @@ Enter an amount to be deposited: 500
 
 🧩 Code Snippet (Main Logic)
 
-switch(choice) {
+switch(choice)
+{
+
     case 1 -> showBalance(balance);
     case 2 -> balance += deposit();
     case 3 -> balance -= withdraw(balance);
@@ -72,10 +77,14 @@ switch(choice) {
 
 🚀 Future Enhancements:
 
-🔐 Add PIN-based login
-📄 Add transaction history
-🏦 Create BankAccount class (OOP version)
-💾 Store data using file handling (txt/json)
+🔐 Add PIN-based login.
+
+📄 Add transaction history.
+
+🏦 Create BankAccount class (OOP version).
+
+💾 Store data using file handling (txt/json).
+
 🖥️ Add UI using Java Swing or JavaFX
 
 🤝 Contributing

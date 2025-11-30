@@ -1,100 +1,60 @@
-# Banking Program – Java Console Application
+# 🏦 Java Mini Banking System
 
-A simple Banking System Console Application built in Java.
-
-This mini-project is perfect for learning input handling, loops, switch cases, validation, and method-based programming.
-
-It is commonly asked in Java interviews and assignments.
-
-🚀 Features
-1. Show account balance
-2. Deposit amount (with validation)
-3. Withdraw amount (with insufficient balance check)
-4. Exit the program
-5. User-friendly menu-driven interface
-6. Input validation for secure transactions
-
-🧠 Concepts Used
-- Scanner for input
-- While loops
-- Switch expressions
-- Functions (methods)
-- Conditional checks
-- Formatted output using printf
-
-📂 Project Structure
-
-BankingProgram.java
-
--> showBalance()   → Displays current balance
-
--> deposit()       → Handles user deposit with validation
-
--> withdraw()      → Handles withdrawal with validation
+A clean, console-based Java application that simulates real banking operations using Object-Oriented Programming and persistent data storage. Designed as a learning project to demonstrate Java fundamentals, modular structure, and basic backend logic.
 
 
-📸 Sample Output
+## 🚀 Features
 
-**-----> BANKING PROGRAM <-----**
-
-1. Show Balance
-2. Deposit
-3. Withdraw
-4. Exit
-
-
-Enter your choice (1-4): 2
-Enter an amount to be deposited: 500
+- Account Creation – Register a new bank account with a secure 4-digit PIN.
+- **PIN-Based Login** – Only authenticated users can access their accounts.
+- **Deposit & Withdrawal** – Perform transactions with proper validation.
+- **Balance Inquiry** – View the current account balance anytime.
+- **Transaction History** – Every transaction is logged with a timestamp and saved.
+- **Persistent Storage** – All accounts and transactions are stored using file serialization (`bank_accounts.dat`).
+- **Multiple Account Support** – System can store and manage any number of users.
 
 
-🛠️ How to Run
+## 📂 Project Structure
 
--> Clone the repository:
+BankingSystem/
+│── Main.java # Entry point + User Interface (Console)
+│── BankAccount.java # Account model + balance operations
+│── Transaction.java # Transaction model (type, amount, time)
+│── BankService.java # Handles account management, login, validation
+└── FileStorage.java # Saves/loads data using Java Serialization
 
-    git clone https://github.com/your-username/banking-program.git
-    
--> Navigate into the project folder:
 
-    cd banking-program
-    
--> Compile the Java file:
+## 💻 How to Run the Project
 
-    javac BankingProgram.java
-    
--> Run the program:
+1. Place all `.java` files inside a folder named **practice**.
+2. Open a terminal in the folder that contains the `practice` directory.
+3. Compile all Java files:
+   ```
+   javac BankingSystem/*.java
 
-    java BankingProgram
+4. Run the program:
+   ```
+   java practice.Main
 
-🧩 Code Snippet (Main Logic)
+5. Follow the on-screen instructions to create an account, log in, and manage your banking operations.
 
-switch(choice)
-{
+🎯 Purpose of This Project
 
-    case 1 -> showBalance(balance);
-    case 2 -> balance += deposit();
-    case 3 -> balance -= withdraw(balance);
-    case 4 -> isRunning = false;
-    default -> System.out.println("INVALID CHOICE");
-}
+This project demonstrates:
 
-🚀 Future Enhancements:
+-> Clean Object-Oriented Programming (OOP)
 
-🔐 Add PIN-based login.
+-> Java file handling & serialization
 
-📄 Add transaction history.
+-> Input validation & exception handling
 
-🏦 Create BankAccount class (OOP version).
+-> Modular project structure
 
-💾 Store data using file handling (txt/json).
-
-🖥️ Add UI using Java Swing or JavaFX
-
-🤝 Contributing
-
-Pull requests are welcome.
-For major changes, please open an issue first to discuss what you would like to improve.
+-> Real-world banking logic at a beginner-friendly level
 
 📜 License
 
-This project is open-source and free to use.
-This project is open-source and free to use.
+This project is open-source. You may modify or extend it for learning or practice.
+
+
+
